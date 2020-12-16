@@ -9,10 +9,15 @@ import Foundation
 import UIKit
 class HomeViewController: UIViewController{
     
-    
+    @IBOutlet weak var adminButton: UIButton!
+    @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet weak var createButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Welcome"
+        adminButton.layer.cornerRadius = 5
+        loginButton.layer.cornerRadius = 5
+        createButton.layer.cornerRadius = 5
         
     }
     //MARK:- Register Action

@@ -14,7 +14,7 @@
             <objects>
                 <navigationController id="e1x-Aj-BvZ" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="lyU-ZU-ov8">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -153,14 +153,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="NyQ-mI-V4O">
-                                <rect key="frame" x="16" y="175" width="288" height="130"/>
+                                <rect key="frame" x="16" y="145" width="288" height="190"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5DR-VO-iJu">
-                                        <rect key="frame" x="0.0" y="0.0" width="288" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="288" height="50"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="lVD-Po-ztC"/>
-                                            <constraint firstAttribute="height" constant="30" id="wOW-w2-CgE"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="s7I-wU-PuG"/>
                                         </constraints>
                                         <state key="normal" title="Admin Login"/>
                                         <connections>
@@ -169,11 +169,11 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G4p-9N-2oM">
-                                        <rect key="frame" x="0.0" y="50" width="288" height="30"/>
+                                        <rect key="frame" x="0.0" y="70" width="288" height="50"/>
                                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="6I5-Vc-sLc"/>
-                                            <constraint firstAttribute="height" constant="30" id="qqw-TM-RqW"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="iXC-hH-ELg"/>
                                         </constraints>
                                         <state key="normal" title="User Login"/>
                                         <connections>
@@ -182,11 +182,11 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NDK-q3-te1">
-                                        <rect key="frame" x="0.0" y="100" width="288" height="30"/>
+                                        <rect key="frame" x="0.0" y="140" width="288" height="50"/>
                                         <color key="backgroundColor" red="0.57647058819999997" green="0.36470588240000001" blue="0.4823529412" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="39X-35-bCP"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="PWA-lq-U85"/>
-                                            <constraint firstAttribute="height" constant="30" id="PXr-jX-By2"/>
                                         </constraints>
                                         <state key="normal" title="Create Account"/>
                                         <connections>
@@ -205,6 +205,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="1u0-65-rOy"/>
+                    <connections>
+                        <outlet property="adminButton" destination="5DR-VO-iJu" id="hLO-J8-D7d"/>
+                        <outlet property="createButton" destination="NDK-q3-te1" id="7xH-6S-yBq"/>
+                        <outlet property="loginButton" destination="G4p-9N-2oM" id="cZQ-lV-gLe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hC2-LY-9kd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
