@@ -3,27 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0083190B2587C1290042D03A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0083190A2587C1290042D03A /* AppDelegate.swift */; };
 		0083190D2587C1290042D03A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0083190C2587C1290042D03A /* SceneDelegate.swift */; };
-		0083190F2587C1290042D03A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0083190E2587C1290042D03A /* ViewController.swift */; };
 		008319122587C1290042D03A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008319102587C1290042D03A /* Main.storyboard */; };
 		008319142587C12F0042D03A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008319132587C12F0042D03A /* Assets.xcassets */; };
 		008319172587C12F0042D03A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008319152587C12F0042D03A /* LaunchScreen.storyboard */; };
+		008319252587C5C10042D03A /* UserRegistation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008319242587C5C10042D03A /* UserRegistation.swift */; };
+		008319312588FB9D0042D03A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008319302588FB9D0042D03A /* RegisterViewController.swift */; };
+		008319342588FED20042D03A /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008319332588FED20042D03A /* DropDown.swift */; };
+		0083193D25893EE60042D03A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0083193C25893EE60042D03A /* HomeViewController.swift */; };
+		00831940258940020042D03A /* AdminLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0083193F258940020042D03A /* AdminLoginViewController.swift */; };
+		008319432589416A0042D03A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008319422589416A0042D03A /* LoginViewController.swift */; };
+		00831946258947A60042D03A /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00831945258947A60042D03A /* UpdateViewController.swift */; };
+		008319492589B3E30042D03A /* AllRegisterViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008319482589B3E20042D03A /* AllRegisterViewControler.swift */; };
+		008319502589C0930042D03A /* SubtitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0083194F2589C0930042D03A /* SubtitleTableViewCell.swift */; };
+		008319582589C23D0042D03A /* CLPlacemark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008319572589C23D0042D03A /* CLPlacemark.swift */; };
+		0083195C2589C2730042D03A /* ReverseGeocodingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0083195B2589C2730042D03A /* ReverseGeocodingViewController.swift */; };
+		008319632589CB5B0042D03A /* Admin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008319622589CB5B0042D03A /* Admin.swift */; };
+		F05BA701C735D2D132ED7539 /* Pods_RealmFirstApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9A3F00D129E3E2C45A4FDB /* Pods_RealmFirstApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		008319072587C1290042D03A /* RealmFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0083190A2587C1290042D03A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0083190C2587C1290042D03A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0083190E2587C1290042D03A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		008319112587C1290042D03A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		008319132587C12F0042D03A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		008319162587C12F0042D03A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		008319182587C12F0042D03A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		008319242587C5C10042D03A /* UserRegistation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistation.swift; sourceTree = "<group>"; };
+		008319302588FB9D0042D03A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		008319332588FED20042D03A /* DropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDown.swift; sourceTree = "<group>"; };
+		0083193C25893EE60042D03A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0083193F258940020042D03A /* AdminLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminLoginViewController.swift; sourceTree = "<group>"; };
+		008319422589416A0042D03A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		00831945258947A60042D03A /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
+		008319482589B3E20042D03A /* AllRegisterViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRegisterViewControler.swift; sourceTree = "<group>"; };
+		0083194F2589C0930042D03A /* SubtitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubtitleTableViewCell.swift; sourceTree = "<group>"; };
+		008319572589C23D0042D03A /* CLPlacemark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLPlacemark.swift; sourceTree = "<group>"; };
+		0083195B2589C2730042D03A /* ReverseGeocodingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseGeocodingViewController.swift; sourceTree = "<group>"; };
+		008319622589CB5B0042D03A /* Admin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Admin.swift; sourceTree = "<group>"; };
+		549B3C0D0E85BAF9E4E36638 /* Pods-RealmFirstApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmFirstApp.debug.xcconfig"; path = "Target Support Files/Pods-RealmFirstApp/Pods-RealmFirstApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5B9A3F00D129E3E2C45A4FDB /* Pods_RealmFirstApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmFirstApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAADA862C265435DA79755CC /* Pods-RealmFirstApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmFirstApp.release.xcconfig"; path = "Target Support Files/Pods-RealmFirstApp/Pods-RealmFirstApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F05BA701C735D2D132ED7539 /* Pods_RealmFirstApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +69,8 @@
 			children = (
 				008319092587C1290042D03A /* RealmFirstApp */,
 				008319082587C1290042D03A /* Products */,
+				B855C97F7284502EE99E4849 /* Pods */,
+				0AE5AD45530661ED4B45AD0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +85,59 @@
 		008319092587C1290042D03A /* RealmFirstApp */ = {
 			isa = PBXGroup;
 			children = (
+				008319612589CB0F0042D03A /* DynamicModel */,
+				008319562589C21F0042D03A /* CLPlaceMark */,
 				0083190A2587C1290042D03A /* AppDelegate.swift */,
 				0083190C2587C1290042D03A /* SceneDelegate.swift */,
-				0083190E2587C1290042D03A /* ViewController.swift */,
 				008319102587C1290042D03A /* Main.storyboard */,
 				008319132587C12F0042D03A /* Assets.xcassets */,
 				008319152587C12F0042D03A /* LaunchScreen.storyboard */,
 				008319182587C12F0042D03A /* Info.plist */,
+				008319242587C5C10042D03A /* UserRegistation.swift */,
+				008319302588FB9D0042D03A /* RegisterViewController.swift */,
+				008319332588FED20042D03A /* DropDown.swift */,
+				0083193C25893EE60042D03A /* HomeViewController.swift */,
+				0083193F258940020042D03A /* AdminLoginViewController.swift */,
+				008319422589416A0042D03A /* LoginViewController.swift */,
+				00831945258947A60042D03A /* UpdateViewController.swift */,
+				008319482589B3E20042D03A /* AllRegisterViewControler.swift */,
+				0083194F2589C0930042D03A /* SubtitleTableViewCell.swift */,
 			);
 			path = RealmFirstApp;
+			sourceTree = "<group>";
+		};
+		008319562589C21F0042D03A /* CLPlaceMark */ = {
+			isa = PBXGroup;
+			children = (
+				008319572589C23D0042D03A /* CLPlacemark.swift */,
+				0083195B2589C2730042D03A /* ReverseGeocodingViewController.swift */,
+			);
+			path = CLPlaceMark;
+			sourceTree = "<group>";
+		};
+		008319612589CB0F0042D03A /* DynamicModel */ = {
+			isa = PBXGroup;
+			children = (
+				008319622589CB5B0042D03A /* Admin.swift */,
+			);
+			path = DynamicModel;
+			sourceTree = "<group>";
+		};
+		0AE5AD45530661ED4B45AD0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B9A3F00D129E3E2C45A4FDB /* Pods_RealmFirstApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B855C97F7284502EE99E4849 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				549B3C0D0E85BAF9E4E36638 /* Pods-RealmFirstApp.debug.xcconfig */,
+				AAADA862C265435DA79755CC /* Pods-RealmFirstApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +147,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0083191B2587C12F0042D03A /* Build configuration list for PBXNativeTarget "RealmFirstApp" */;
 			buildPhases = (
+				A8E4800561F3904F49396437 /* [CP] Check Pods Manifest.lock */,
 				008319032587C1290042D03A /* Sources */,
 				008319042587C1290042D03A /* Frameworks */,
 				008319052587C1290042D03A /* Resources */,
+				AA6885BC286DBB26FB26B7D8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +207,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A8E4800561F3904F49396437 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RealmFirstApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA6885BC286DBB26FB26B7D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealmFirstApp/Pods-RealmFirstApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RealmFirstApp/Pods-RealmFirstApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RealmFirstApp/Pods-RealmFirstApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		008319032587C1290042D03A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0083190F2587C1290042D03A /* ViewController.swift in Sources */,
+				008319432589416A0042D03A /* LoginViewController.swift in Sources */,
+				008319582589C23D0042D03A /* CLPlacemark.swift in Sources */,
+				008319252587C5C10042D03A /* UserRegistation.swift in Sources */,
+				008319312588FB9D0042D03A /* RegisterViewController.swift in Sources */,
+				00831940258940020042D03A /* AdminLoginViewController.swift in Sources */,
+				008319342588FED20042D03A /* DropDown.swift in Sources */,
+				0083195C2589C2730042D03A /* ReverseGeocodingViewController.swift in Sources */,
+				008319492589B3E30042D03A /* AllRegisterViewControler.swift in Sources */,
 				0083190B2587C1290042D03A /* AppDelegate.swift in Sources */,
+				0083193D25893EE60042D03A /* HomeViewController.swift in Sources */,
+				008319502589C0930042D03A /* SubtitleTableViewCell.swift in Sources */,
 				0083190D2587C1290042D03A /* SceneDelegate.swift in Sources */,
+				008319632589CB5B0042D03A /* Admin.swift in Sources */,
+				00831946258947A60042D03A /* UpdateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +344,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,16 +411,19 @@
 		};
 		0083191C2587C12F0042D03A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 549B3C0D0E85BAF9E4E36638 /* Pods-RealmFirstApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RYKX6QG95;
 				INFOPLIST_FILE = RealmFirstApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Balaji-Besta.RealmFirstApp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daimler.RealmFirstApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -301,16 +432,19 @@
 		};
 		0083191D2587C12F0042D03A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAADA862C265435DA79755CC /* Pods-RealmFirstApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2RYKX6QG95;
 				INFOPLIST_FILE = RealmFirstApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Balaji-Besta.RealmFirstApp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daimler.RealmFirstApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

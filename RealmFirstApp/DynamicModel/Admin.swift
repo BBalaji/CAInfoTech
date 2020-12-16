@@ -6,3 +6,8 @@
 //
 
 import Foundation
+import RealmSwift
+class Admin: Object {
+    @objc dynamic var name : String?
+    @objc dynamic var password : String?
+}
